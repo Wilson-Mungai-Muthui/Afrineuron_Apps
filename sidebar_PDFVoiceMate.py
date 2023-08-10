@@ -27,21 +27,21 @@ def sidebar():
             "- **QueryBot🤖:** If you have questions and want the app to help you find answers.\n"
             "- **Book Recommendations📚:** If you're interested in discovering new books.\n"
             "4. Follow the instructions of each feature:\n"
-            "- **Summarize:** The app provides a summarized version\n"
-            "- **AudioBook:** Select language, audio type,decide whether you want to generate an audio summary or read out a specific topic, and voice. Listen to the audio\n"
-            "- **QueryBot:** Ask a question, and the app gives you an answer.\n"
-            "- **Book Recommendations:** Input preferences, get book suggestions.\n"
+            "- **Summarize📝:** The app provides a summarized version\n"
+            "- **AudioBook🔊:** Select language, audio type,decide whether you want to generate an audio summary or read out a specific topic, and voice. Listen to the audio\n"
+            "- **QueryBot🤖:** Ask a question, and the app gives you an answer.\n"
+            "- **Book Recommendations📚:** Input preferences, get book suggestions.\n"
         )
 
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
         """ 
-        PDF Voice Mate is an innovative and versatile application designed to 
+        Book Mate is an innovative and versatile application designed to 
         revolutionize the way you interact with PDF files. With a range of powerful features, 
         this app aims to simplify and enhance your experience when working with PDF documents of all kinds. 
         Whether you're a student, professional, or simply someone who deals with PDFs regularly, 
-        PDF Voice Mate is here to make your tasks more efficient, convenient, and engaging.
+        Book Mate is here to make your tasks more efficient, convenient, and engaging.
         """
         )
         st.markdown("---")

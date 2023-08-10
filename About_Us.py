@@ -1,4 +1,5 @@
 import streamlit as st
+from theme import footer
 
 st.set_page_config(page_title="Afrineuron", page_icon="🧠", layout="wide")
 
@@ -6,6 +7,8 @@ col1, col2, col3 = st.columns(3)
 with col2:
     st.image("https://afrineuron.files.wordpress.com/2023/06/afrineuron-1-10-2.png")
     st.markdown("<h2 style = 'text-align: center; color: white;'>Afrineuron🧠</h2>", unsafe_allow_html=True)
+
+footer()
 
 st.markdown("<h3 style = 'text-align: center; color: white;'>A Community Passionate about Transforming Africa</h3>", unsafe_allow_html=True)
 

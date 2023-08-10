@@ -129,7 +129,7 @@ def main():
             from streamlit_extras.add_vertical_space import add_vertical_space
             
             if 'generated' not in st.session_state:
-                st.session_state['generated'] = ["I'm Book query Bot"]
+                st.session_state['generated'] = ["I'm your Book Query Bot"]
             if 'past' not in st.session_state:
                 st.session_state['past'] = ['How can you help me?']
                 
